@@ -46,8 +46,10 @@ const OXD_ELEMENTS = {
   pageContext: '.oxd-layout-context',
   pageTitle: '.orangehrm-main-title',
   numRecords: '.oxd-text--span',
-  option: '.oxd-select-option',
+  option: '.oxd-select-option' ,
+  option2: '.oxd-autocomplete-option > span' ,
   selectWrapper: '.oxd-select-wrapper',
+  //empCountText: 'orangehrm-leave-entitled-text',
   ...OXD_INPUT_ELEMENTS,
 };
 
